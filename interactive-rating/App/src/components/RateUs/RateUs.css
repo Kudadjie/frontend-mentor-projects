@@ -1,0 +1,81 @@
+.star-holder {
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(213deg 17% 21%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin:25px 0 0 30px;
+}
+
+.hide {
+	display:none;
+	position: absolute;
+}
+
+.rate-us {
+	padding-top:25px;
+	padding-bottom: 22px;
+}
+
+.rate-us h1 {
+	align-self:flex-start;
+}
+
+.rate-us p {
+	text-align: start;
+	margin-bottom:20px;
+}
+
+.ratings {
+	display:flex;
+	gap:20px;
+}
+
+.rate {
+	display:flex;
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(213deg 17% 21%);
+	color:hsl(213deg 8% 63%);
+	font-size:12px;
+	line-height: 1.5em;
+} 
+
+.rate:hover {
+	background-color: var(--Orange);
+}
+
+.rate:hover  {
+	color: var(--White);
+}
+
+#one:checked + .rate,
+#two:checked + .rate,
+#three:checked + .rate,
+#four:checked + .rate,
+#five:checked + .rate { 
+	background-color: var(--MediumGray);
+	color:var(--White)
+}
+
+button {
+	background-color: var(--Orange);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--White);
+    padding: 9px 112px;
+    font-family: inherit;
+    margin-top: 20px;
+    border-radius: 50px;
+	border:none;
+}
+
+button:hover {
+	background-color: var(--White);
+	color: var(--Orange);
+}
