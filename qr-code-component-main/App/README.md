@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Live site](https://magical-begonia-cd4ca0.netlify.app)
+- Live Site URL: [Live site](https://zesty-lebkuchen-91e3c5.netlify.app)
 
 ## My process
 
