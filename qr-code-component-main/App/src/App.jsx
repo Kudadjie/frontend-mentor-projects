@@ -7,7 +7,7 @@ function App(){
   return (
     <div className="card">
       <div>
-        <img src={image} width="300px"/>
+        <img src={image} width="300" alt="frontend mentors qr code"/>
         <h1>Improve your front-end skills by building projects</h1>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div>
